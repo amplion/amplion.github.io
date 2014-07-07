@@ -21,7 +21,7 @@ $(function() {
 //Google Map Skin - Get more at http://snazzymaps.com/
 var myOptions = {
     zoom: 15,
-    center: new google.maps.LatLng(53.385873, -1.471471),
+    center: new google.maps.LatLng(44.043083, -121.328302),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     disableDefaultUI: true,
     styles: [{
