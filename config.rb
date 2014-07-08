@@ -31,6 +31,10 @@
 ###
 # Helpers
 ###
+activate :dotenv
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket = 'amplion.com'
+end
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
