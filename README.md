@@ -2,10 +2,36 @@
 
 This repository hosts the company web page for Amplion Research, Inc.
 
+
+## Build
+
+Preview:
+
+```
+foreman start
+```
+
+Compile:
+
+```
+middleman build
+```
+
+
+## Deploy
+
+Release:
+
+```
+middleman sync
+```
+
+
 ## Authors
 
 * Chris Kraybill / [@ckraybill](https://github.com/ckraybill)
 * Adam Carroll / [@asc313x](https://github.com/asc313x)
+
 
 ## License
 
