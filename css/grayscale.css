@@ -129,6 +129,11 @@ a:focus {
     }
 }
 
+/* This work, "intro-bg.jpg", is a derivative of
+   "http://www.flickr.com/photos/99689885@N00/5581742" by meg and rahul, used
+   under http://creativecommons.org/licenses/by/2.0/, "CC BY". 
+   "intro-bg.jpg" is licensed under CC BY Amplion Research, Inc.
+ */
 .intro {
     display: table;
     width: 100%;
