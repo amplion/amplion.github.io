@@ -23,7 +23,7 @@ middleman build
 Release:
 
 ```
-middleman sync
+middleman s3_sync
 ```
 
 
