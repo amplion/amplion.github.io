@@ -32,9 +32,31 @@
 # Helpers
 ###
 activate :dotenv
+
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket = 'amplion.com'
+  s3_sync.bucket                     = 'amplion.com'
+  s3_sync.region                     = 'us-west-2'
+  s3_sync.delete                     = false
+  s3_sync.after_build                = false
+  s3_sync.prefer_gzip                = true
+  s3_sync.path_style                 = true
+  s3_sync.reduced_redundancy_storage = false
+  s3_sync.acl                        = 'public-read'
+  s3_sync.encryption                 = false
 end
+
+activate :s3_redirect do |redirect|
+  redirect.aws_access_key_id     = ENV['AWS_ACCESS_KEY_ID']
+  redirect.aws_secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
+  redirect.bucket                = 'amplion.com'
+  redirect.region                = 'us-west-2'
+end
+
+redirect '/about.html', '/#about'
+redirect '/news.html', '/#blog'
+redirect '/contact.html', '/#contact'
+redirect '/privacy.html', 'https://www.biomarkerbase.com/privacy'
+redirect '/commercial-trends-for-biomarker-based-ivd-tests.html', 'https://www.biomarkerbase.com/report'
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes

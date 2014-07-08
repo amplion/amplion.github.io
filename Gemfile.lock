@@ -98,6 +98,10 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (~> 3.2)
       rack-livereload (~> 0.3.15)
+    middleman-s3_redirect (3.0.4)
+      fog (>= 1.10.1)
+      middleman-core (>= 3.0.0)
+      parallel
     middleman-s3_sync (3.0.30)
       colorize
       fog (>= 1.10.1)
@@ -126,6 +130,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.2)
       activesupport (>= 3.1)
+    parallel (1.0.0)
     pmap (1.0.1)
     rack (1.5.2)
     rack-livereload (0.3.15)
@@ -169,4 +174,5 @@ DEPENDENCIES
   middleman
   middleman-dotenv
   middleman-livereload
+  middleman-s3_redirect
   middleman-s3_sync

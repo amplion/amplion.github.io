@@ -5,16 +5,25 @@ This repository hosts the company web page for Amplion Research, Inc.
 
 ## Build
 
-Compile:
-
-```
-bundle exec middleman build
-```
-
 Preview:
 
 ```
 foreman start
+```
+
+Compile:
+
+```
+middleman build
+```
+
+
+## Deploy
+
+Release:
+
+```
+middleman sync
 ```
 
 
