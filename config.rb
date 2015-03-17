@@ -24,6 +24,8 @@
 #   page "/admin/*"
 # end
 
+page "/academic_access/", :layout => "academic_access"
+
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
@@ -63,7 +65,7 @@ redirect '/commercial-trends-for-biomarker-based-ivd-tests.html', 'https://www.b
 
 # Reload the browser automatically whenever files change
 # configure :development do
-#   activate :livereload
+   activate :livereload
 # end
 
 # Methods defined in the helpers block are available in templates
