@@ -170,6 +170,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman
+  middleman-core
   middleman-dotenv (~> 1.0)
   middleman-livereload
   middleman-s3_redirect

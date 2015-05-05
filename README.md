@@ -31,11 +31,12 @@ middleman s3_sync
 
 * Chris Kraybill / [@ckraybill](https://github.com/ckraybill)
 * Adam Carroll / [@asc313x](https://github.com/asc313x)
+* Seth Taylor / [@sethtaylor26](https://github.com/sethtaylor26)
 
 
 ## License
 
-Copyright (c) 2014 Amplion Research, Inc.
+Copyright (c) 2015 Amplion, Inc.
 
 Code is licensed under the [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
