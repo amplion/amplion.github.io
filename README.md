@@ -1,6 +1,6 @@
 # [amplion.com](http://amplion.com)
 
-This repository hosts the company web page for Amplion Research, Inc.
+This repository hosts the company web page for Amplion Inc.
 
 
 ## Build
@@ -36,7 +36,7 @@ middleman s3_sync
 
 ## License
 
-Copyright (c) 2015 Amplion, Inc.
+Copyright (c) 2015 Amplion Inc.
 
 Code is licensed under the [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
