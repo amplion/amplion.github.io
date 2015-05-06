@@ -1,4 +1,4 @@
-# [amplion.com](http://amplion.com)
+# [amplion.com](https://amplion.com)
 
 This repository hosts the company web page for Amplion Inc.
 
