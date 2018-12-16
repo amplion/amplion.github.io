@@ -29,7 +29,6 @@ middleman s3_sync
 
 ## Authors
 
-* Chris Kraybill / [@ckraybill](https://github.com/ckraybill)
 * Adam Carroll / [@asc313x](https://github.com/asc313x)
 * Seth Taylor / [@sethtaylor26](https://github.com/sethtaylor26)
 
